@@ -1,0 +1,36 @@
+{
+  "pages": [
+    {
+      "id": "lHUTte1",
+      "grid": {
+        "tiles": []
+      },
+      "showTitle": false
+    }
+  ],
+  "owner": "test",
+  "listed": true,
+  "name": "testuser\u0027s default dashboard",
+  "showGrid": true,
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "test"
+    },
+    "lastModifiedOn": 1689353967731,
+    "extendedProperties": {}
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "test"
+    },
+    "lastModifiedOn": 1689353967731,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
