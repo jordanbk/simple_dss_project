@@ -11,7 +11,25 @@
   "hasSetupSection": false,
   "owner": "test",
   "permissionsVersion": "V2",
-  "permissions": [],
+  "permissions": [
+    {
+      "group": "reviewers",
+      "admin": false,
+      "readProjectContent": true,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "publishToDataCollections": false,
+      "shareToWorkspaces": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false,
+      "executeApp": false
+    }
+  ],
   "additionalDashboardUsers": {
     "users": []
   },
@@ -20,7 +38,8 @@
     "flowAnchorSourcesAndSinks": true,
     "flowDisplaySettings": {
       "zonesGraphRenderingAlgorithm": "DOT_OLDRANK",
-      "zonesGraphConnectZones": true
+      "zonesGraphConnectZones": true,
+      "zonesGraphForJobs": true
     },
     "gitCommitMode": "AUTO",
     "disableAutomaticTriggers": false,
@@ -104,6 +123,11 @@
     "k8sCluster": {
       "clusterMode": "INHERIT"
     },
+    "llmSettings": {
+      "offerDolly7B": true,
+      "offerFalcon7BInstruct": true,
+      "additionalHuggingFaceModels": []
+    },
     "virtualWebAppBackendSettings": {
       "mode": "INHERIT",
       "preventOverride": false,
@@ -161,6 +185,7 @@
           "samplingMethod": "FULL",
           "maxRecords": -1,
           "targetRatio": 0.02,
+          "ascending": true,
           "withinFirstN": -1,
           "maxReadUncompressedBytes": -1
         }
@@ -188,6 +213,14 @@
     "displayedState": {
       "checks": []
     }
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1690998393490,
+    "extendedProperties": {}
   },
   "creationTag": {
     "versionNumber": 0,
